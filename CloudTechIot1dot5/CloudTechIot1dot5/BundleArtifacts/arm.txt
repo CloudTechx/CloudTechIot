@@ -1,0 +1,1 @@
+MainPackage=C:\CloudTeches_Workspace\CloudTechIot1dot5\CloudTechIot1dot5\bin\ARM\Release\CloudTechIot1dot5_1.0.1.0_ARM.appx

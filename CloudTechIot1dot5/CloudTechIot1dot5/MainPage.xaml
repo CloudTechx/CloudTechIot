@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="CloudTechIot1dot5.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CloudTechIot1dot5"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="FontSize" Value="60"></Setter>
+            <Setter Property="FontWeight" Value="Bold"></Setter>
+        </Style>
+    </Page.Resources>
+    <!--http://www.cnblogs.com/cloudtech
+        cloudtechesx@gmail.com-->
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBlock Foreground="LightBlue" Text="cloudtechesx@gmail.com"></TextBlock>
+        <TextBlock Grid.Row="1" Foreground="Red" Text="{Binding CurrentTime,UpdateSourceTrigger=PropertyChanged}"></TextBlock>
+        <TextBlock Grid.Row="2" Foreground="Yellow" Text="Power Shell"></TextBlock>
+    </Grid>
+</Page>

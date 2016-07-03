@@ -10,6 +10,7 @@ namespace CloudTechIot2
     public sealed class StartupTask : IBackgroundTask
     {
         //http://www.cnblogs.com/cloudtech
+		//cloudtechesx@gmail.com
         public void Run(IBackgroundTaskInstance taskInstance)
         {
             //初始化Pins

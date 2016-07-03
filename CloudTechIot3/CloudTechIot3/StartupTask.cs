@@ -11,7 +11,7 @@ using Windows.Web.Http;
 namespace CloudTechIot3
 {
     //http://www.cnblogs.com/cloudtech
-    //http://www.cnblogs.com/cloudtech
+    //cloudtechesx@gmail.com
     public sealed class StartupTask : IBackgroundTask
     {
         #region Fileds
